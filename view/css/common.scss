@@ -1,0 +1,61 @@
+* {
+	box-sizing: border-box;
+}
+[v-cloak] {
+	display: none;
+}
+image{
+	display: block;
+}
+.badge {
+	position: absolute;
+	height: 36rpx;
+	line-height: 36rpx;
+	border-radius: 18rpx;
+	padding: 0 10rpx;
+	background-color: #ff5d5b;
+	color: #fff;
+	top: 0;
+	right: 0;
+	transform: translateX(40%) translateY(-40%);
+	z-index: 99;
+	font-size: 24rpx;
+}
+.text-note {
+	color: #54afff;
+}
+.center-center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.cl {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.ct {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.flex {
+	display: flex;
+}
+.flex-c-c {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.right-arrow::after {
+	content: '';
+	position: absolute;
+	width: 0.5em;
+	height: 0.5em;
+	border: 4rpx solid #aaa;
+	right: 40rpx;
+	top: 50%;
+	transform: translateY(-50%) rotate(45deg);
+	border-width: 4rpx 4rpx 0 0;
+}
